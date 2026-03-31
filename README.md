@@ -1,5 +1,5 @@
 
-# VeritasStream
+# V Stream
 
 A decentralized live-streaming MVP with:
 - FFmpeg real video ingestion (RTMP)
