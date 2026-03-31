@@ -1,0 +1,14 @@
+
+{
+  "compilerOptions": {
+    "target": "ES2022",
+    "module": "CommonJS",
+    "strict": true,
+    "esModuleInterop": true,
+    "moduleResolution": "node",
+    "baseUrl": ".",
+    "paths": {
+      "@veritasstream/shelby": ["packages/shelby/src"]
+    }
+  }
+}
