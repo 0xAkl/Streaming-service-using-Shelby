@@ -1,0 +1,11 @@
+
+{
+  "name": "veritasstream",
+  "private": true,
+  "workspaces": ["apps/*","packages/*"],
+  "scripts": {
+    "dev:web": "npm --workspace apps/web run dev",
+    "dev:server": "npm --workspace apps/server run dev",
+    "dev:rtmp": "ts-node apps/server/rtmp-server.ts"
+  }
+}
